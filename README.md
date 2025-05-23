@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# nextgen-portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, creative, and fully responsive portfolio website built with React.  
+Showcase your work, tell your story, and let visitors connect with you — all with smooth animations and interactive design.
 
-## Available Scripts
+## ✨ Features
 
-In the project directory, you can run:
+- **Multi-page layout:** Home, Projects, About, and Contact pages
+- **Modern UI:** Inspired by top creative agencies and portfolios
+- **Smooth animations:** Framer Motion transitions, animated cursor, and interactive buttons
+- **Responsive design:** Looks great on desktop, tablet, and mobile
+- **Custom animated cursor:** Follows mouse with dynamic effects
+- **Project showcase:** Random direction transitions for engaging navigation
+- **Contact form:** Stylish, animated, and easy to use
 
-### `npm start`
+## 🚀 Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Live Site:** [https://your-vercel-or-netlify-link](https://your-vercel-or-netlify-link)
+- **YouTube Inspiration:** [Layout inspiration video](https://youtu.be/Ja388yOaNCE?si=6J989zA88RlTFhOE)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📸 Screenshots
 
-### `npm test`
+![Home Page](./screenshots/home.png)
+![Projects Page](./screenshots/projects.png)
+![About Page](./screenshots/about.png)
+![Contact Page](./screenshots/contact.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠️ Tech Stack
 
-### `npm run build`
+- **Frontend:** React, Framer Motion, CSS
+- **Deployment:** Vercel / Netlify
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📦 Getting Started
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. **Clone the repo:**
+   ```bash
+   git clone https://github.com/[yourname]/nextgen-portfolio.git
+   cd nextgen-portfolio
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+2. **Install dependencies:**
+   ```bash
+   npm install
+   ```
 
-### `npm run eject`
+3. **Run locally:**
+   ```bash
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. **Build for production:**
+   ```bash
+   npm run build
+   ```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🌐 Deployment
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- Deploy easily to [Vercel](https://vercel.com/) or [Netlify](https://netlify.com/).
+- Connect your GitHub repo and follow the prompts.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 📄 License
 
-## Learn More
+This project is for educational and portfolio purposes.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Inspired by:**  
+[hookux.com](https://hookux.com/) | [rouserlab.com](https://www.rouserlab.com) | [5scontent.com](https://5scontent.com) | [amandabraga.com](https://www.amandabraga.com) | [cappen.com](https://www.cappen.com)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with ❤️ by [RONAK]

@@ -1,0 +1,71 @@
+/* Fullscreen overlay for loading */
+.loader-overlay {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Animated coding phrase text */
+.loader {
+  width: fit-content;
+  max-width: 90%;
+  font-size: 40px;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  background: 
+    linear-gradient(90deg, transparent 33%, #fff 0 67%, transparent 0)
+    0 / 300% 100% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  animation: l2 2s linear infinite;
+  line-height: 1.4;
+}
+
+@keyframes l2 {
+  0% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
+}
+
+/* Page transition fade in/out */
+.page-transition.fadeIn {
+  animation: fadeIn 0.5s ease forwards;
+}
+
+.page-transition.fadeOut {
+  animation: fadeOut 0.5s ease forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.98);
+  }
+}

@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@600;700&display=swap');
+
+.navbar {
+  background: rgba(0, 0, 0, 0.8);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: 'Encode Sans', sans-serif;
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.navbar-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+  letter-spacing: -0.03em;
+  transition: color 0.3s ease;
+}
+
+.navbar-logo:hover {
+  color: #ff7f50;
+  text-shadow: 0 0 5px #ff7f50aa;
+}
+
+.nav-menu {
+  display: flex;
+  list-style: none;
+  gap: 2.5rem;
+}
+
+.nav-menu li a {
+  position: relative;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+  padding: 0.5rem 0;
+}
+
+.nav-menu li a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  height: 2px;
+  width: 0%;
+  background: #ff7f50;
+  transition: width 0.3s ease;
+}
+
+.nav-menu li a:hover::after {
+  width: 100%;
+}
+
+.nav-menu li a:hover {
+  color: #ff7f50;
+  transform: scale(1.05);
+  text-shadow: 0 0 5px #ff7f50aa;
+}
+
+.active-link {
+  color: #ff7f50;
+}
+
+.active-link::after {
+  width: 100%;
+}
+
+/* Hamburger icon */
+.menu-icon {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  width: 25px;
+  height: 20px;
+  justify-content: space-between;
+}
+
+.menu-icon div {
+  background: white;
+  height: 3px;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.menu-icon.open div:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-icon.open div:nth-child(2) {
+  opacity: 0;
+}
+.menu-icon.open div:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+  .menu-icon {
+    display: flex;
+  }
+
+  .nav-menu {
+    position: fixed;
+    top: 60px;
+    right: -100%;
+    width: 60%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.95);
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    transition: right 0.3s ease;
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.4);
+  }
+
+  .nav-menu.active {
+    right: 0;
+  }
+
+  .nav-menu li a {
+    font-size: 1.2rem;
+  }
+}
