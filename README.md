@@ -15,15 +15,10 @@ Showcase your work, tell your story, and let visitors connect with you — all w
 
 ## 🚀 Demo
 
-- **Live Site:** [https://your-vercel-or-netlify-link](https://your-vercel-or-netlify-link)
+- **Live Site:** [https://nextgen-portfolio-livid.vercel.app/](https://nextgen-portfolio-livid.vercel.app/)
 - **YouTube Inspiration:** [Layout inspiration video](https://youtu.be/Ja388yOaNCE?si=6J989zA88RlTFhOE)
 
-## 📸 Screenshots
 
-![Home Page](./screenshots/home.png)
-![Projects Page](./screenshots/projects.png)
-![About Page](./screenshots/about.png)
-![Contact Page](./screenshots/contact.png)
 
 ## 🛠️ Tech Stack
 
