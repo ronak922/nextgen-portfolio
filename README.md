@@ -29,7 +29,7 @@ Showcase your work, tell your story, and let visitors connect with you — all w
 
 1. **Clone the repo:**
    ```bash
-   git clone https://github.com/[yourname]/nextgen-portfolio.git
+   git clone https://github.com/ronak922/nextgen-portfolio.git
    cd nextgen-portfolio
    ```
 
